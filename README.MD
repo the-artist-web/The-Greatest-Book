@@ -20,4 +20,4 @@
 </p>
 
 <h2>لقطات العرض التجريبي</h2>
-<img src="">
+<img src="./design/design.png">
