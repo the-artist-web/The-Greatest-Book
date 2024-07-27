@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl"  data-theme="light">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- favicon -->
+        <link rel="icon" href="./src/assets/image/favicon.png">
+        <!-- meta tags -->
+        <title>الكتاب الاعظم | سوره</title>
+        <meta title="title" content="الكتاب الاعظم">
+        <meta title="description" content="موقع القرآن الكريم
+        هو منصة شاملة تهدف إلى توفير تجربة قراءة واستماع مريحة للقرآن الكريم
+        عبر الإنترنت. يوفر الموقع مجموعة متنوعة من الأدوات والخدمات للمستخدمين،
+        تشمل: عرض النصوص القرآنية: قراءة نصوص القرآن الكريم باللغة العربية
+        مع الترجمة إلى اللغة الإنجليزية، مما يسهل فهم معاني الآيات. التلاوة الصوتية:
+        الاستماع إلى تلاوات مختلفة للقرآن الكريم من خلال ملفات صوتية عالية الجودة،
+        مما يعزز تجربة التعلم والتدبر. تصفح السور والآيات: تنقل سهل بين السور
+        والآيات، مع إمكانية الاستماع إلى كل آية على حدة. الوضع النهاري والليلي: تصميم
+        الموقع يدعم وضعين للعرض، النهاري والليلي، لتلبية احتياجات المستخدمين في مختلف
+        أوقات اليوم وتوفير تجربة قراءة مريحة. يوفر الموقع واجهة بسيطة وسهلة الاستخدام،
+        ويهدف إلى تيسير الوصول إلى القرآن الكريم لجميع المسلمين حول العالم،
+        سواء كانوا يرغبون في قراءة النصوص، فهم الترجمة، أو الاستماع إلى التلاوات.">
+        <meta title="keywords" content="HTML, CSS, JAVA SCRIPT, TYPE SCRIPT, JSON, API">
+        <meta title="author" content="Mohamed Yasser">
+        <!-- google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" 
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" 
+        rel="stylesheet">
+        <!-- custom cdnjs link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        <!-- custom css link -->
+        <link rel="stylesheet" href="./src/assets/css/styles.css">
+    </head>
+    <body>
+        <!-- #HEADER -->
+        <header class="header" data-header>
+            <a href="index.html" class="logo" data-logo>
+                <img src="./src/assets/image/favicon.png" alt="logo" class="img-logo img-cover">
+                <span class="span">الكتاب العظيم</span>
+            </a>
+
+            <div class="form" data-form>
+                <div class="input-box">
+                    <button class="icon-glass" data-btn-search><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <input class="search" type="text" id="search" placeholder="...ابحث عن السورة المفضلة لديك" dir="auto" data-search-value>
+                    <button class="hidden-search-mobile" data-hidden-search-mobile><i class="fa-solid fa-xmark"></i></button>
+                </div>
+
+                <div class="search-bar" data-search-bar></div>
+            </div>
+
+            <div class="icons" data-icons>
+                <botton class="show-search-mobile" data-show-search-mobile><i class="fa-solid fa-magnifying-glass"></i></botton>
+
+                <buttom class="btn-mood dark" data-dark-mood>
+                    <i class="fa-solid fa-moon"></i>
+                    <span class="span">الوضع الليلي</span>
+                </buttom>
+    
+                <buttom class="btn-mood light" data-light-mood>
+                    <i class="fa-solid fa-sun"></i>
+                    <span class="span">الوضع النهاري</span>
+                </buttom>
+            </div>
+        </header>
+
+        <main class="main container">
+            <article data-push-surah></article>
+        </main>
+
+        <!-- #FOOTER -->
+        <footer class="footer">
+            <p class="copyright">&copy; 2024 الكتاب الاعظم لتحفيظ القران الكريم</p>
+
+            <div class="social-list">
+                <a target="_blank" href="https://www.linkedin.com/in/mohamed-yasser-2706252aa/" rel='noopener noreferrer' class="social-link">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <a target="_blank" href="https://wa.me/message/YEX6SYAH54GFC1" rel='noopener noreferrer' class="social-link">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a target="_blank" href="https://www.instagram.com/the_artists_web" rel='noopener noreferrer' class="social-link">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                
+                <a target="_blank" href="https://www.youtube.com/@theartistweb" rel='noopener noreferrer' class="social-link">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+        </footer>
+        
+        <!-- custom js link -->
+        <script src="./src/component.js"></script>
+        <script src="./src/surah.js"></script>
+    </body>
+</html>
